@@ -1,0 +1,2 @@
+# Ignore my db credentials
+/App/Class/Databases.php

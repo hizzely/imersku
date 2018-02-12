@@ -1,0 +1,271 @@
+/* ***************************************
+-- Imersku E-Commerce CSS
+-- Version 0.2
+-- Author: Fajar Ru
+-- Github: https://github.com/hizzely
+*************************************** */
+
+body {
+    background-color: #f7f7f7;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    padding-top: 65px;
+}
+
+/* ---------------------------------------------- 
+-- KOMPONEN NAVBAR
+---------------------------------------------- */
+
+.navbar {
+    background-color: #fff;
+    overflow: hidden;
+    line-height: 50px;
+    min-height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    border-bottom: 3px #3498db solid;
+}
+
+.navbar-title {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    color: #2980b9;
+}
+
+.navbar a {
+    padding: 18px 16px;
+    color: #3a3d44;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: #3a3d44;
+}
+
+.navbar .active {
+    background-color: #2980b9;
+    color: #fff;
+}
+
+.navbar .active:hover {
+    background-color: #2980b9;
+    color: #fff;
+}
+
+.navbar-right {
+    float: right;
+    display: block;
+}
+
+/* -----------------------------------------
+-- PAGE WRAPPER
+----------------------------------------- */
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/* -------------------------------------------
+-- EXTRAS
+------------------------------------------- */
+
+.left-border-blue {
+  border-left: 8px #3498db solid;
+  padding-left: 15px;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+
+th,td {
+  text-align: left;
+}
+
+.informasi-biru {
+  width: 100%;
+  height: auto;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.subhead {
+  margin-top: -15px;
+  width: 100%;
+  min-height: 75px;
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px;
+}
+
+#totalprice {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.box-kupon {
+  margin-top: 20px;
+  width: auto;
+  background-color: #fff;
+  border: 2px #ddd dashed;
+  padding: 10px;
+  position: relative;
+  display: inline-flex;
+}
+
+.cart-wrapper {
+  background-color: #fff; 
+  padding: 10px; 
+  border: 1px #ddd solid;
+  margin-top: 20px;
+
+}
+
+.form-input {
+  height: 25px;
+  padding: 5px;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+}
+
+.form-group {
+  display: inline-block;
+  width: 100%;
+}
+
+/* --------------------------------------------
+-- FEATURED PRODUCT BOX
+-------------------------------------------- */
+
+.fp-box {
+  min-height: 50px;
+  background-color: #fff;
+  border: 1px #ddd solid;
+  position: relative;
+}
+
+.fp-box .fp-box-content {
+  padding: 10px 15px;
+  background-color: #ddd;
+  min-height: 150px;
+}
+
+.fp-box .fp-box-footer {
+  min-height: 25px;
+  bottom: 0;
+  padding: 10px 15px;
+  background-color: #fff;
+  text-align: center;
+}
+
+/* ---------------------------------------------
+-- BUTTONS
+--------------------------------------------- */
+
+.btn {
+  display: inline-block;
+  padding: 5px 20px;
+  font-size: 14px;
+  border: 1px #ddd solid;
+  text-decoration: none;
+  color: #3a3d44;
+  background-color: transparent;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+  color: #3a3d44;
+}
+
+.btn-blue {
+  background-color: #2980b9;
+  color: #fff;
+}
+
+.btn-blue:hover {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.btn-xs {
+  padding: 5px 8px;
+  font-size: 12px;
+}
+
+.btn-lg {
+  height: 38px;
+}
+
+/* ---------------------------------------------
+-- FOOTER
+--------------------------------------------- */
+
+.footerbox {
+  overflow: hidden;
+  min-height: 200px;
+  background-color: #363636;
+  color: #fff;
+  position: relative;
+  padding-bottom: 25px;
+}
+.footerbox .footerbox-copyright {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  padding: 10px;
+  background-color: #2f2f2f;
+  color: #fff;
+}
+
+.footerbox a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
